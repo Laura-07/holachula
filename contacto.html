@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<title>Hola Chula</title>
+	<meta name="language" content="ES">
+	<meta name="Description" content="Accesorios hechos a mano y personalizaciones en arcilla polimerica, porcelana flexible, acero inoxidable y chapa de oro">
+	<meta name="Keywords" content="Hecho a mano, bisutería, accesorios personalizados">
+	<meta name="author" content="Laura Cerón, shayceron@gmail.com">
+	<meta name="copyright" content="Hola Chula">
+	<meta name="robots" content="Index,Follow">
+<link rel="shortcut icon" href="IMG/favicon (2).ico" type="image/x-icon">
+<link rel="icon" href="IMG/favicon (2).ico" type="image/x-icon">
+
+	<style>
+	* {margin: 0; padding: 0;}
+body {background-image:url("IMG/Fondo-o.png"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; color: black; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+
+.wrapper {background-color: rgba(230,47,107,1); width:1200px; margin-left: auto; margin-right: auto; }
+h2 {color: rgba(230,47,107,1.00); border-top: 1px solid black; border-bottom: 1px solid black; line-height: 50px; width: 333px; margin-left:auto; margin-right: auto; margin-bottom: 25px; }
+footer {font-size: 15px; background-color:rgba(237,185,214,0.82); height: 50px; line-height: 50px;}
+
+a {text-decoration: none; color: black; }
+
+a:hover {color: rgba(65,185,194,1.00);font-size: 15px;}
+
+.menu {background-color:white; height: 220px;}
+
+ul {list-style-type: none;}
+li {width: 290px; float: left;  color:black;line-height: 60px;}
+
+#Izquierdo {border-left: none;}
+ .Fondo {background-color: white; width: 80%;margin-left: auto; margin-right: auto;padding: 5%; margin-top: 5%; margin-bottom: 5%; }
+
+	
+	
+	
+	
+	
+	
+	</style>
+	<link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="menu">
+		  <img src="IMG/Logo-2.1.jpg" width="300" height="141" alt="Logo de Hola Chula"/>
+
+		<ul>	
+			<li id="Izquierdo"><b><big><a href="Index.html">Historia</a></big></b></li>
+			<li><b><big><a href="Producto.html">Productos</a></big></b></li>
+			<li><b><big><a href="Promociones.html">Promociones</a></big></b></li>
+			<li><b><big><a href="Contacto.html">Contacto</a></big></b></li>
+				
+			
+		  </ul>
+		
+		
+	  </div>
+		
+		<div id="Contacto" class="Fondo">
+			
+			<h2><b><big><big>Contacto</big></big></b></h2>
+		<br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.6386902031063!2d-98.88494678514174!3d19.51417458683797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e7a7a346c29d%3A0x9022698255f42430!2sTexcoco%20Centro!5e0!3m2!1ses!2smx!4v1643620524464!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			
+			<br>
+			<br>
+		
+    <iframe
+      id="JotFormIFrame-220302426681851"
+      title="Compra de mayoreo a menudeo"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allowfullscreen="true"
+      allow="geolocation; microphone; camera"
+      src="https://form.jotform.com/220302426681851"
+      frameborder="0"
+      style="
+      min-width: 100%;
+      height:539px;
+      border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script type="text/javascript">
+      var ifr = document.getElementById("JotFormIFrame-220302426681851");
+      if (ifr) {
+        var src = ifr.src;
+        var iframeParams = [];
+        if (window.location.href && window.location.href.indexOf("?") > -1) {
+          iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+        }
+        if (src && src.indexOf("?") > -1) {
+          iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+          src = src.substr(0, src.indexOf("?"))
+        }
+        iframeParams.push("isIframeEmbed=1");
+        ifr.src = src + "?" + iframeParams.join('&');
+      }
+      window.handleIFrameMessage = function(e) {
+        if (typeof e.data === 'object') { return; }
+        var args = e.data.split(":");
+        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+        if (!iframe) { return; }
+        switch (args[0]) {
+          case "scrollIntoView":
+            iframe.scrollIntoView();
+            break;
+          case "setHeight":
+            iframe.style.height = args[1] + "px";
+            break;
+          case "collapseErrorPage":
+            if (iframe.clientHeight > window.innerHeight) {
+              iframe.style.height = window.innerHeight + "px";
+            }
+            break;
+          case "reloadPage":
+            window.location.reload();
+            break;
+          case "loadScript":
+            if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+            var src = args[1];
+            if (args.length > 3) {
+                src = args[1] + ':' + args[2];
+            }
+            var script = document.createElement('script');
+            script.src = src;
+            script.type = 'text/javascript';
+            document.body.appendChild(script);
+            break;
+          case "exitFullscreen":
+            if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+            else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+            else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+            else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+            else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+            break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+        }
+      };
+      window.isPermitted = function(originUrl, whitelisted_domains) {
+        var url = document.createElement('a');
+        url.href = originUrl;
+        var hostname = url.hostname;
+        var result = false;
+        if( typeof hostname !== 'undefined' ) {
+          whitelisted_domains.forEach(function(element) {
+              if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                  result = true;
+              }
+          });
+          return result;
+        }
+      };
+      if (window.addEventListener) {
+        window.addEventListener("message", handleIFrameMessage, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onmessage", handleIFrameMessage);
+      }
+      </script>
+  
+
+	  </div>	
+		
+	<div class="clear"></div>	
+	</div>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<footer> <b>Hola Chula. Todos los derechos reservados</b></footer>
+	<div class="ultimo"></div>
+</body>
+</html>
